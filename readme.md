@@ -57,6 +57,6 @@ Default: `null`
 MIT © [Chris Montgomery](https://github.com/chmontgomery)
 
 [npm-url]: https://npmjs.org/package/@chmontgomery/exec-promise
-[npm-image]: http://img.shields.io/npm/v/@chmontgomery/exec-promise.svg
+[npm-image]: https://img.shields.io/badge/npm-v1.0.1-blue.svg?style=flat
 [travis-image]: https://travis-ci.org/chmontgomery/exec-promise.svg?branch=master
 [travis-url]: https://travis-ci.org/chmontgomery/exec-promise
