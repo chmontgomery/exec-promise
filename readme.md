@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save exec-promise
+$ npm install --save @chmontgomery/exec-promise
 ```
 
 
