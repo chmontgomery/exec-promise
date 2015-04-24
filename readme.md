@@ -23,12 +23,12 @@ execPromise('ls -l')
     throw err;
   });
   
-/*=>
-  total 16
-  -rw-r--r--  1 montgomeryc  staff  162 Apr 24 14:40 index.js
-  drwxr-xr-x  3 montgomeryc  staff  102 Apr 24 14:40 node_modules
-  -rw-r--r--  1 montgomeryc  staff  271 Apr 24 14:40 package.json
-  done!
+/*
+total 16
+-rw-r--r--  1 montgomeryc  staff  162 Apr 24 14:40 index.js
+drwxr-xr-x  3 montgomeryc  staff  102 Apr 24 14:40 node_modules
+-rw-r--r--  1 montgomeryc  staff  271 Apr 24 14:40 package.json
+done!
  */
 ```
 
