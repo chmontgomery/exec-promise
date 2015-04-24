@@ -8,7 +8,7 @@ module.exports = function (cmd, opts) {
         reject(err);
       }
       else {
-        resolve();
+        resolve(stdout);
       }
     });
     child.stdout.on('data', function (chunk) {
