@@ -1,4 +1,4 @@
-# exec-promise [![Build Status](https://travis-ci.org/chmontgomery/exec-promise.svg?branch=master)](https://travis-ci.org/chmontgomery/exec-promise)
+# exec-promise [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 > Executes a command line string using child_process.exec under the covers, wrapped in a [bluebird promise](https://github.com/petkaantonov/bluebird) for convenience.
 
@@ -55,3 +55,8 @@ Default: `null`
 ## License
 
 MIT © [Chris Montgomery](https://github.com/chmontgomery)
+
+[npm-url]: https://npmjs.org/package/@chmontgomery/exec-promise
+[npm-image]: http://img.shields.io/npm/v/@chmontgomery/exec-promise.svg
+[travis-image]: https://travis-ci.org/chmontgomery/exec-promise.svg?branch=master
+[travis-url]: https://travis-ci.org/chmontgomery/exec-promise
