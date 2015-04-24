@@ -1,6 +1,6 @@
 {
   "name": "@chmontgomery/exec-promise",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Executes a command line string using child_process.exec under the covers, wrapped in a bluebird promise for convenience.",
   "license": "MIT",
   "repository": "chmontgomery/exec-promise",
