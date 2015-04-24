@@ -1,6 +1,6 @@
 # exec-promise [![Build Status](https://travis-ci.org/chmontgomery/exec-promise.svg?branch=master)](https://travis-ci.org/chmontgomery/exec-promise)
 
-> Executes a command line string using child_process.exec under the covers, wrapped in a bluebird promise for convenience.
+> Executes a command line string using child_process.exec under the covers, wrapped in a [bluebird promise](https://github.com/petkaantonov/bluebird) for convenience.
 
 
 ## Install
@@ -24,13 +24,11 @@ execPromise('ls -l')
   });
   
 /*=>
-  total 40
-  -rw-r--r--  1 montgomeryc  staff   518 Apr 24 13:50 index.js
-  -rw-r--r--  1 montgomeryc  staff  1131 Apr 24 13:43 license
-  drwxr-xr-x  3 montgomeryc  staff   102 Apr 24 13:48 node_modules
-  -rw-r--r--  1 montgomeryc  staff   626 Apr 24 13:55 package.json
-  -rw-r--r--  1 montgomeryc  staff   934 Apr 24 13:59 readme.md
-  -rw-r--r--  1 montgomeryc  staff   409 Apr 24 13:54 test.js
+  total 16
+  -rw-r--r--  1 montgomeryc  staff  162 Apr 24 14:40 index.js
+  drwxr-xr-x  3 montgomeryc  staff  102 Apr 24 14:40 node_modules
+  -rw-r--r--  1 montgomeryc  staff  271 Apr 24 14:40 package.json
+  done!
  */
 ```
 
@@ -48,12 +46,10 @@ Command line to execute
 
 #### options
 
-##### foo
-
 Type: `object`  
 Default: `null`
 
-[Node exec options object](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)
+[The node.js child_process.exec options object](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)
 
 
 ## License
