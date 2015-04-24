@@ -13,7 +13,7 @@ $ npm install --save exec-promise
 ## Usage
 
 ```js
-var execPromise = require('exec-promise');
+var execPromise = require('@chmontgomery/exec-promise');
 
 execPromise('ls -l')
   .then(function(stdout, stderr) { // can inspect output if desired
