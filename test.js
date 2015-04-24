@@ -4,8 +4,9 @@ var execPromise = require('./');
 
 it('should resolve output', function (cb) {
   execPromise('echo "hello"')
-    .then(function (result) {
-      assert('hello' === result.trim());
+    .then(function (stdout, stderr) {
+      assert('hello' === stdout.trim());
+      assert(!stderr);
       cb();
     });
 });

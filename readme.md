@@ -16,7 +16,7 @@ $ npm install --save exec-promise
 var execPromise = require('exec-promise');
 
 execPromise('ls -l')
-  .then(function() {
+  .then(function(stdout, stderr) { // can inspect output if desired
     console.log('done!');
   })
   .catch(function(err) {
