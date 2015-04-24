@@ -6,9 +6,14 @@
   "repository": "chmontgomery/exec-promise",
   "author": {
     "name": "Chris Montgomery",
-    "email": "chr.montgomery@gmail.com",
     "url": "github.com/chmontgomery"
   },
+  "contributors": [
+    {
+      "name": "Adan Perez",
+      "url": "https://github.com/adanperez"
+    }
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
