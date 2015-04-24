@@ -2,10 +2,12 @@
 var assert = require('assert');
 var execPromise = require('./');
 
-it('should resolve', function (cb) {
+it('should resolve output', function (cb) {
   execPromise('echo "hello"')
-    .then(cb)
-    .catch(cb);
+    .then(function (result) {
+      assert('hello' === result.trim());
+      cb();
+    });
 });
 it('should not resolve', function (cb) {
   execPromise('this-cmd-does-not-exist')
