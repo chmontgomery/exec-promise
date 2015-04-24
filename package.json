@@ -1,0 +1,30 @@
+{
+  "name": "exec-promise",
+  "version": "1.0.0",
+  "description": "Executes a command line string using child_process.exec under the covers, wrapped in a bluebird promise for convenience.",
+  "license": "MIT",
+  "repository": "chmontgomery/exec-promise",
+  "author": {
+    "name": "Chris Montgomery",
+    "email": "chr.montgomery@gmail.com",
+    "url": "github.com/chmontgomery"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.24"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
